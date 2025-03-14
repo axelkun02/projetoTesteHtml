@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surprise</title>
+    <style>
+        body{
+            background-color: black;
+        }
+    </style>
+
+</head>
+<body>
+    <button id="botao" style="font-size: 50px;">APERTE</button>
+    <p id="msg" style="font-size: 40px; text-align: center; font-family:Georgia, 'Times New Roman', Times, serif;"></p>
+
+    <img id="imagem" src="https://i.pinimg.com/736x/d6/5a/b7/d65ab76968d74ccad914d5f8df56a5e0.jpg" alt="" style="display: none; width: 300px; margin-left: 43%;">
+    
+  
+    
+    
+ 
+    <script>
+         document.getElementById("botao").onclick = function() {
+            document.body.style.backgroundColor = "white"
+            document.getElementById("msg").innerText = "I love youuuu";
+            
+            let img = document.getElementById("imagem");
+            img.style.display = "block"; // Torna visível
+          
+          
+            
+            
+
+        }
+
+    </script>
+</body>
+</html>
